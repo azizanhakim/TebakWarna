@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.azizanhakim.tebakwarna.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundbatik">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Apakah Sesuai ?"
+        android:textColor="#dbf9fc"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="COKELAT"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#964B00"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textColor="#BDC1C2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jawaban"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/salah"
+                android:layout_width="0dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="SALAH"
+                android:textColor="#C21513"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginRight="6dp"
+                android:onClick="salah"/>
+
+            <Button
+                android:id="@+id/benar"
+                android:layout_width="0dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="BENAR"
+                android:textColor="#2d4dce"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:onClick="benar"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/lanjut"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LANJUT"
+            android:textColor="#111111"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

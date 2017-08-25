@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tebak Warna</string>
+    <string name="mulai">MULAI</string>
+    <string name="keluar">KELUAR</string>
+    <string name="otak_kiri">Otak Kiri</string>
+    <string name="versus">VS</string>
+    <string name="otak_kanan">Otak Kanan</string>
+    <string name="slogan">Ayo Asah Otak !</string>
+</resources>
